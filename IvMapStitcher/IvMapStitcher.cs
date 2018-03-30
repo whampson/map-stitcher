@@ -86,7 +86,8 @@ namespace WHampson.MapStitcher
         private static void Usage()
         {
             Console.WriteLine("Usage: {0} map_files output_file", PrograName);
-            Console.WriteLine("\nCreates a GTA IV map image by stitching together the radar tiles from the game data.");
+            Console.WriteLine("\nCreates a GTA IV map image by stitching together the radar tiles");
+            Console.WriteLine("from the game data.");
             Console.WriteLine("Arguments:");
             Console.WriteLine("    map_files    directory containing the radar tiles");
             Console.WriteLine("    output_file  path to the new map file (PNG)");
